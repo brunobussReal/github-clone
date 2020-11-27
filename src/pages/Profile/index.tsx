@@ -7,6 +7,9 @@ import {
   RightSide,
   Repos,
   CalendarHeading,
+  Tab,
+  RepoIcon,
+  TabContent,
 } from "./styles";
 import ProfileData from "../../components/ProfileData";
 import RepoCard from "../../components/RepoCard";
@@ -30,6 +33,18 @@ const Profile: React.FC = () => {
           />
         </LeftSide>
         <RightSide>
+          <Tab>
+            {/* <TabContent>
+              <OverviewIcon />
+              <span className="label">Overview</span>
+            </TabContent> */}
+            <TabContent>
+              <RepoIcon />
+              <span className="label">Repositories</span>
+              <span className="number">55</span>
+            </TabContent>
+            <span className="line"></span>
+          </Tab>
           <Repos>
             <h2>Random Repos</h2>
 
