@@ -15,7 +15,7 @@ export const GithubLogo = styled(FaGithub)`
   flex-shrink: 0;
 `;
 
-export const SearchForm = styled.div`
+export const SearchForm = styled.form`
   padding-left: 16px;
   width: 100%;
 
